@@ -3,6 +3,7 @@
 	margin:0;
 	padding:0;
 	font-family:'Open Sans';
+	color:#006269;
 }
 
 html,body{
@@ -27,24 +28,25 @@ a{
 
 #logo{
 	margin:0 auto;
-	height:15rem;
-	width:15rem;
+	height:10rem;
+	width:20rem;
 }
 
 .curly{
 	position:absolute;
 	height:200px;
-	width:50%;
+	width:30%;
 	/*border:solid red 2px;*/
-	transform:rotate(-90deg);
-	top:-50%;
-	left:-4%;
+	transform:rotate(-135deg);
+	top:10%;
+	left:-20%;
 	margin:0;
 	-o-transition:.5s;
   	-ms-transition:.5s;
   	-moz-transition:.5s;
   	-webkit-transition:.5s;
 	/*background:salmon;*/
+	z-index:2;
 }
 
 /*.curly:hover{
@@ -111,8 +113,8 @@ a{
 }
 
 .curly .free{
-	fill:white;
-	transform:scaleX(0.4);
+	fill:rgba(255,255,255,0);
+	transform:scaleX(0.3);
 
 }
 
