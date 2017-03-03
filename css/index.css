@@ -1,0 +1,171 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+	font-family:'Open Sans';
+}
+
+html,body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	overflow:hidden;
+}
+
+a{
+	text-decoration:none;
+}
+
+.main{
+	display:table-cell;
+	vertical-align:middle;
+	height:100vh;
+	width:100vw;
+}
+
+#logo{
+	margin:0 auto;
+	height:15rem;
+	width:15rem;
+}
+
+.curly{
+	position:absolute;
+	height:200px;
+	width:50%;
+	/*border:solid red 2px;*/
+	transform:rotate(-90deg);
+	top:-50%;
+	left:-4%;
+	margin:0;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+	/*background:salmon;*/
+}
+
+/*.curly:hover{
+	top:-30%;
+}*/
+
+.greater{
+	position:absolute;
+	right:0px;
+	bottom:30%;
+	height:20vh;
+	width:20vw;
+	/*border:solid red 1px;*/
+	transform-origin:bottom-right;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+}
+
+/*.greater:hover{
+	bottom:70%;
+	width:40vw;
+}*/
+
+.greater .free{
+	fill:white;
+}
+
+.greater .border{
+	fill:#f9c453;
+	transform:scaleX(1);
+
+}
+
+.parenthesis{
+	position:absolute;
+	/*border:solid red 2px;*/
+	bottom:-14rem;
+	left:-5rem;
+	transform:rotate(90deg);
+	height:600px;
+	width:400px;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+  	z-index:1;
+	
+}
+
+/*.parenthesis:hover{
+	bottom:-7rem;
+	left:0rem;
+	
+}*/
+
+.parenthesis .free{
+	fill:white;
+}
+
+.parenthesis .border{
+	fill:#f9c453;
+}
+
+.curly .free{
+	fill:white;
+	transform:scaleX(0.4);
+
+}
+
+.curly .border{
+	fill:#f9c453;
+	transform:scaleX(0.5);
+}
+
+.call-to-action{
+	display:table-cell;
+	vertical-align:middle;
+	margin-top:2rem;
+	width:60%;
+	/*border-radius:solid blue 2px;*/
+	height:7rem;
+	width:40vw;
+	/*background:blue;*/
+	z-index:1;
+}
+
+.btn-type1{
+	height:2rem;
+	width:10rem;
+	background:white;
+	border:solid #006269 2px;
+	color:#006269;
+	margin:1rem;
+	padding:1rem;
+	-o-transition:.5s;
+  	-ms-transition:.5s;
+  	-moz-transition:.5s;
+  	-webkit-transition:.5s;
+}
+
+.btn-type1:hover{
+	border:solid #006269 2px;
+	background:#006269;
+	color:white;
+}
+
+.row{
+	margin-top:2rem;
+}
+
+.share-row{
+	margin-top:2rem;
+	color:#006269;
+}
+
+.share-row i{
+	margin:1rem;
+}
+
+.fa{
+	color:#006269;
+}
