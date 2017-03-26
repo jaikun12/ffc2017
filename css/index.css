@@ -14,7 +14,8 @@ html,body{
 body{
 	overflow:hidden;
 	background:url(../images/sample_pattern_blurred.png);
-	
+	background-repeat:repeat;
+	background-size:50px 50px;
 }
 
 a{
@@ -36,7 +37,10 @@ a{
 	padding-top:50px;
 	padding-bottom:50px;
 	z-index:999;
-	border:solid #006269 5px;
+	/*border:solid #006269 5px;*/
+	box-shadow:20%;
+	border-radius:50px;
+	background:rgba(255,255,255,0.5);
 
 }
 
