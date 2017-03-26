@@ -13,20 +13,35 @@ html,body{
 
 body{
 	overflow:hidden;
+	background:url(../images/sample_pattern_blurred.png);
+	
 }
 
 a{
 	text-decoration:none;
 }
 
-.main{
-	top:20%;
-	position:fixed;
-	display:table-cell;
-	vertical-align:middle;
+.wrapper{
 	height:100vh;
 	width:100vw;
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.main{
+	display:table-cell;
+	vertical-align:middle;
+	height:40vh;
+	width:40vw;
+	padding-top:50px;
+	padding-bottom:50px;
 	z-index:999;
+	border:solid #006269 5px;
+
+}
+
+.main a{
+	/*float:left;*/
 }
 
 #logo{
@@ -138,8 +153,8 @@ a{
 }
 
 .btn-type1{
-	height:2rem;
-	width:10rem;
+	min-height:2rem;
+	min-width:10rem;
 	background:white;
 	border:solid #006269 2px;
 	color:#006269;
@@ -162,6 +177,7 @@ a{
 }
 
 .share-row{
+	clear:both;
 	margin-top:2rem;
 	color:#006269;
 }
@@ -172,4 +188,23 @@ a{
 
 .fa{
 	color:#006269;
+}
+
+@media only screen and (max-width:768px){
+	.main a{
+		float:left;
+	}
+
+	.main{
+		width:80vw;
+		height:80vh;
+		background:blur;
+	}
+
+	#logo{
+		height:7rem;
+		width:15rem;
+	}
+
+
 }
